@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tasks</title>
+    <style>
+         body{
+             font-family: Helvetica, Calibri, sans-serif;
+             font-size: 14pt;
+             padding: 16px;
+        }
+
+         a{
+             font-size: 14pt;
+             font-weight: normal;
+             float: right;
+         }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 16px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f1f1f1;
+        }
+
+        .task_button{
+            background-color: #4CAF50;
+            font-size: 14pt;
+            color: white;
+            padding: 16px 20px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            opacity: 0.9;
+        }
+
+        .task_button:hover{
+            opacity: 1;
+        }
+    </style>
+</head>
+    <body>
+    <h1>Your Homework Tasks <a href="#">To Grades -></a></h1>
+
+    <table>
+      <tr>
+          <th>Subject</th>
+          <th>Deadline</th>
+          <th>Description</th>
+          <th width="10%"></th>
+      </tr>
+      <tr>
+          <td>Math</td>
+          <td>24.02.21</td>
+          <td>Exploring Exponents</td>
+          <td><button class="task_button">Do Task</button></td>
+      </tr>
+        <tr>
+            <td>History</td>
+            <td>12.02.21</td>
+            <td>The German Nazis History</td>
+            <td><button class="task_button">Do Task</button></td>
+      </tr>
+    </table>
+</body>
+</html>

@@ -2,14 +2,10 @@
 <project version="4">
   <component name="dataSourceStorageLocal">
     <data-source name="db" uuid="8de5bfdd-766b-4966-b9df-620c4d6e08d1">
-      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="SQLITE" exact-version="0" />
-      <secret-storage>forget</secret-storage>
-      <schema-mapping />
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" family="SQLITE" exact-version="0.0" />
     </data-source>
     <data-source name="db [2]" uuid="d6516146-94da-4930-a0f3-fc4931bf4057">
-      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="SQLITE" exact-version="0" />
-      <auth-provider>no-auth</auth-provider>
-      <schema-mapping />
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" family="SQLITE" exact-version="0.0" />
     </data-source>
   </component>
 </project>

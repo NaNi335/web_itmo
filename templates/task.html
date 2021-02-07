@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Description</title>
+    <style>
+         body{
+             font-family: Helvetica, Calibri, sans-serif;
+             font-size: 14pt;
+             padding: 16px;
+        }
+
+         p{
+             padding-left: 16px;
+         }
+
+         .content{
+             max-width: 50%;
+             margin: auto;
+             padding: 16px;
+         }
+
+         .description_container{
+             justify-content: center;
+         }
+
+
+        textarea {
+            width: 100%;
+        }
+
+        .submit_button{
+            float: right;
+            background-color: #4CAF50;
+            font-size: 14pt;
+            color: white;
+            padding: 16px 20px;
+            border: none;
+            cursor: pointer;
+            width: 120px;
+            opacity: 0.9;
+        }
+
+        .submit_button:hover{
+            opacity: 1;
+        }
+    </style>
+</head>
+    <body>
+    <a href="#"><- Back to Tasks</a>
+    <div class="content">
+        <h1>Exploring Exponents</h1>
+        <div>
+            <p>Subject: Math</p>
+            <p>Deadline: 24.02.21</p>
+        </div>
+        <div>
+            <h2>Description</h2>
+            <p class="description_container">Work in pairs to figure out a rule for each of the following situations. Try out different numeric examples to find a pattern.
+                Use a=2, b=7, m=3, and n=5 for your first example, then choose your own numbers for the other two.
+                Once you have a conjecture for what the rule is, try proving it to yourselves by using non-exponential notation
+                (or think of a different way to show it!). Use colors and highlighters to show connections and make your work more clear.</p>
+        </div>
+        <div>
+            <h2>Your Answer</h2>
+            <form>
+            <textarea id="task_answer" rows="10" cols="1"></textarea>
+              <br><br>
+              <button type="submit" class="submit_button">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
